@@ -919,6 +919,210 @@
         "moduleName": "AxisMed"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ThreeDViewerPredictor",
+        "printedName": "ThreeDViewerPredictor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(modelURL:scanType:isLocalFile:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThreeDViewerPredictor",
+                "printedName": "AxisMed.ThreeDViewerPredictor",
+                "usr": "s:7AxisMed21ThreeDViewerPredictorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Foundation.URL?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanType",
+                "printedName": "AxisMed.ScanType",
+                "usr": "s:7AxisMed8ScanTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AxisMed21ThreeDViewerPredictorV8modelURL8scanType11isLocalFileAC7SwiftUI7BindingVy10Foundation0G0VSgG_AA04ScanI0OSbtcfc",
+            "mangledName": "$s7AxisMed21ThreeDViewerPredictorV8modelURL8scanType11isLocalFileAC7SwiftUI7BindingVy10Foundation0G0VSgG_AA04ScanI0OSbtcfc",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed21ThreeDViewerPredictorV4bodyQrvp",
+            "mangledName": "$s7AxisMed21ThreeDViewerPredictorV4bodyQrvp",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed21ThreeDViewerPredictorV4bodyQrvg",
+                "mangledName": "$s7AxisMed21ThreeDViewerPredictorV4bodyQrvg",
+                "moduleName": "AxisMed",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "alignToPlane",
+            "printedName": "alignToPlane()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AxisMed21ThreeDViewerPredictorV12alignToPlaneyyF",
+            "mangledName": "$s7AxisMed21ThreeDViewerPredictorV12alignToPlaneyyF",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7AxisMed21ThreeDViewerPredictorV",
+        "mangledName": "$s7AxisMed21ThreeDViewerPredictorV",
+        "moduleName": "AxisMed",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2846,70 +3050,70 @@
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 300,
+      "offset": 307,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 416,
+      "offset": 423,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 458,
+      "offset": 465,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 500,
+      "offset": 507,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "Array",
-      "offset": 557,
+      "offset": 564,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 820,
+      "offset": 827,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 24128,
+      "offset": 24135,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 24170,
+      "offset": 24177,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 24219,
+      "offset": 24226,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "IntegerLiteral",
-      "offset": 30542,
+      "offset": 30549,
       "length": 2,
       "value": "16"
     },

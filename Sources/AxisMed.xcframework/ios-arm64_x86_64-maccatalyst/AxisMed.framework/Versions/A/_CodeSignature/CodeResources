@@ -34,14 +34,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VI4Amfzdr8smOwMGlGVlxvNtrKyBHykng0q8q5ZJ/04=
+			jRBKKPXgXonLguV3UcCP0sW0Wv1/Gys2SdCRlCtSNc4=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V40m8h+/LLseFjexJya9FzQwfDiPb4nh/wVv1W33DPw=
+			HTaGlps0PKQ3YRiQJEjuw4Ro0s6g1QBpWMeTgWSzWpU=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -55,28 +55,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V40m8h+/LLseFjexJya9FzQwfDiPb4nh/wVv1W33DPw=
+			HTaGlps0PKQ3YRiQJEjuw4Ro0s6g1QBpWMeTgWSzWpU=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ykCj39iySqwkYDPEira4NdUc1XLGJ5oWzdr8qfKHgVU=
+			gA/jLJmLH0cwwCxMOefRw/WveLUig+fvPLgcPiWjpOU=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VI4Amfzdr8smOwMGlGVlxvNtrKyBHykng0q8q5ZJ/04=
+			jRBKKPXgXonLguV3UcCP0sW0Wv1/Gys2SdCRlCtSNc4=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIQyYtj75JfjC5F64L59npTNYQp4Z7ZeUNTuHoikE2E=
+			jxEHbOJ+qgQfjyFXU8wQyP7QDORnB5jwzhT2nKULOMU=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIQyYtj75JfjC5F64L59npTNYQp4Z7ZeUNTuHoikE2E=
+			jxEHbOJ+qgQfjyFXU8wQyP7QDORnB5jwzhT2nKULOMU=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			na/mpfiLc7sDrrAal2xotHBmuII1OhNnvgB8Gtmx6KA=
+			6CRc1lXwKWrALvUuHORLN4Wvx8xPQs1HvPCN3s+seZo=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>

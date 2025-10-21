@@ -39,6 +39,14 @@ public enum ScanType {
     get
   }
 }
+@_Concurrency.MainActor @preconcurrency public struct ThreeDViewerPredictor : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(modelURL: SwiftUICore.Binding<Foundation.URL?>, scanType: AxisMed.ScanType, isLocalFile: Swift.Bool = true)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public func alignToPlane()
+  public typealias Body = @_opaqueReturnTypeOf("$s7AxisMed21ThreeDViewerPredictorV4bodyQrvp", 0) __
+}
 
 public class AxisMedPredictor {
   public init()
@@ -48,3 +56,4 @@ extension AxisMed.AxisMedPredictor : Observation.Observable {
 }
 extension AxisMed.ScanType : Swift.Equatable {}
 extension AxisMed.ScanType : Swift.Hashable {}
+extension AxisMed.ThreeDViewerPredictor : Swift.Sendable {}
