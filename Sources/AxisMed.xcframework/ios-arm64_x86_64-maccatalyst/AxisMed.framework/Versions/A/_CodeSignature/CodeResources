@@ -8,37 +8,13 @@
 		<data>
 		6loYPkYD73buQ4wrvkCeHBp/67Y=
 		</data>
-		<key>Resources/JennR.obj</key>
-		<data>
-		Y+KtPbdVMy8ugECyYcMcWgmYCyw=
-		</data>
-		<key>Resources/MrLF.stl</key>
-		<data>
-		R9ZgbP4OXJDjGKKqPwEsppa8s/g=
-		</data>
-		<key>Resources/MrRF.stl</key>
-		<data>
-		5EPaygO9IHFWCCa7UK2jfoMLics=
-		</data>
-		<key>Resources/dual_foam.stl</key>
-		<data>
-		KMnV4u7Ivp/LBV+quyr5vK1A/EY=
-		</data>
 		<key>Resources/foamBoxesKeypoints.mlpackage.bin</key>
 		<data>
 		aMEznVeESXem93AwE3liRgL1RJk=
 		</data>
-		<key>Resources/foot.stl</key>
-		<data>
-		poI52N62R44+5Q0iHW7behYMuTM=
-		</data>
 		<key>Resources/plantarSurfaceKeypoints.mlpackage.bin</key>
 		<data>
 		UdmGKzy1SYACI1lQn91ru+ZmlDM=
-		</data>
-		<key>Resources/right_foam.stl</key>
-		<data>
-		TIdpp2LgbFhc581QQfPMBpVhNRE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -54,14 +30,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iFb+4AGaSJGGgjckY8qL4TrRLiX2wNLVl9yZFKlbLYk=
+			elzFCaMtMYIRxgK62rSbhibuR1bvFnFqqbzNjngVZFw=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jlrsj7/cM0ZVz/chqU0uhCWPhOmUKd1FXNnkuwfS598=
+			vCC3NBf70Us+ZjQXZbqJ5Erl4MZqf/zNVOAczC8I40Y=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -75,28 +51,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jlrsj7/cM0ZVz/chqU0uhCWPhOmUKd1FXNnkuwfS598=
+			vCC3NBf70Us+ZjQXZbqJ5Erl4MZqf/zNVOAczC8I40Y=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DzH/3PxX2/b3k56p+eqR7q1FRymy0ZmV/q3kzDC6ryE=
+			S+W6uMaVWfqHEdcdUEY/FTHVhIxrNoE65ywc4XIdJQk=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iFb+4AGaSJGGgjckY8qL4TrRLiX2wNLVl9yZFKlbLYk=
+			elzFCaMtMYIRxgK62rSbhibuR1bvFnFqqbzNjngVZFw=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1Ilfd/OG4EzwkpiUEJZL5x+pYMdvgp6/RjOqIkUI84=
+			coYDuT6Zm2+UVqvzt/z+WkL9zPUHZk7Vb6MUsTO32Kw=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -110,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1Ilfd/OG4EzwkpiUEJZL5x+pYMdvgp6/RjOqIkUI84=
+			coYDuT6Zm2+UVqvzt/z+WkL9zPUHZk7Vb6MUsTO32Kw=
 			</data>
 		</dict>
 		<key>Modules/AxisMed.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7QaDtha3oAxqOX0c7tAeLAs9Xw+8JWVic0QTSWzzggE=
+			CL2bkA0LKnBcQky71/gxEmlTzoOlxciN8svfiABsyIw=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
@@ -127,34 +103,6 @@
 			0niqJQ4OWo+FEgcAuSnyfcu1p4YWV1DemSNfgcmL1l4=
 			</data>
 		</dict>
-		<key>Resources/JennR.obj</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WaidDiMM3Bkxlek88arAs292v8w0vohoLE6ol2WyGV8=
-			</data>
-		</dict>
-		<key>Resources/MrLF.stl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/HQZ6RqjOQ6Cj7jNbOJ9mrCCAj4aR+FIhbosFuNZb+I=
-			</data>
-		</dict>
-		<key>Resources/MrRF.stl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hhve8Xup0AwRyAPLCcR3/wsH5Kcj57vML579FlMTsGE=
-			</data>
-		</dict>
-		<key>Resources/dual_foam.stl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4BDIiKvCHoW2OeEz+8+QUDi5UZII19Uvz6YSmwg4N+c=
-			</data>
-		</dict>
 		<key>Resources/foamBoxesKeypoints.mlpackage.bin</key>
 		<dict>
 			<key>hash2</key>
@@ -162,25 +110,11 @@
 			WMiJpzyN8frIV0SZ8cX+lS6gqzCHfICIIuzU3adrWFk=
 			</data>
 		</dict>
-		<key>Resources/foot.stl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EY4r4Mp/90mB1bCaVXuwJOkU9PKyM9fUAbG+M5dLy9M=
-			</data>
-		</dict>
 		<key>Resources/plantarSurfaceKeypoints.mlpackage.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			/x93YWFK9vhq2yGctQRGt3KHHxepCXEF39wgnsuSA4M=
-			</data>
-		</dict>
-		<key>Resources/right_foam.stl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XO8rkwYYJMX2vu4AQbefMg8MDrQv/Wxfrjj2t/nJIzo=
 			</data>
 		</dict>
 	</dict>

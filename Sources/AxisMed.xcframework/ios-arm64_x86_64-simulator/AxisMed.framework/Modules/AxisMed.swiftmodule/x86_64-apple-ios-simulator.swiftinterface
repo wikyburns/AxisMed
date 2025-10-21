@@ -25,6 +25,13 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public typealias Polygon = [CoreFoundation.CGPoint]
 
+@_Concurrency.MainActor @preconcurrency public struct ThreeDViewerPredictor : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public func alignToPlane()
+  public typealias Body = @_opaqueReturnTypeOf("$s7AxisMed21ThreeDViewerPredictorV4bodyQrvp", 0) __
+}
 
 public class AxisMedPredictor {
   public init()
@@ -32,3 +39,4 @@ public class AxisMedPredictor {
 }
 extension AxisMed.AxisMedPredictor : Observation.Observable {
 }
+extension AxisMed.ThreeDViewerPredictor : Swift.Sendable {}
