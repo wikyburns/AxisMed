@@ -27,12 +27,17 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public typealias Polygon = [CoreFoundation.CGPoint]
 
-@_Concurrency.MainActor @preconcurrency public struct ThreeDViewerPredictor : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+public enum ScanType {
+  case foot
+  case leftFoam
+  case rightFoam
+  case dualFoam
+  case plantarSurface
+  public static func == (a: AxisMed.ScanType, b: AxisMed.ScanType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public func alignToPlane()
-  public typealias Body = @_opaqueReturnTypeOf("$s7AxisMed21ThreeDViewerPredictorV4bodyQrvp", 0) __
 }
 
 public class AxisMedPredictor {
@@ -41,4 +46,5 @@ public class AxisMedPredictor {
 }
 extension AxisMed.AxisMedPredictor : Observation.Observable {
 }
-extension AxisMed.ThreeDViewerPredictor : Swift.Sendable {}
+extension AxisMed.ScanType : Swift.Equatable {}
+extension AxisMed.ScanType : Swift.Hashable {}

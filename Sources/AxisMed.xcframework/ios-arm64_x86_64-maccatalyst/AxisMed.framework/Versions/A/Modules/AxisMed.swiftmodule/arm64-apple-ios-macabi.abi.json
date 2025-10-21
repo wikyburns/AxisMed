@@ -522,110 +522,244 @@
         "moduleName": "AxisMed"
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "AxisMed",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "AxisMed",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ModelIO",
-        "printedName": "ModelIO",
-        "declKind": "Import",
-        "moduleName": "AxisMed"
-      },
-      {
-        "kind": "Import",
-        "name": "SceneKit.ModelIO",
-        "printedName": "SceneKit.ModelIO",
-        "declKind": "Import",
-        "moduleName": "AxisMed"
-      },
-      {
-        "kind": "Import",
-        "name": "SceneKit",
-        "printedName": "SceneKit",
-        "declKind": "Import",
-        "moduleName": "AxisMed"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "AxisMed",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ModelIO",
-        "printedName": "ModelIO",
-        "declKind": "Import",
-        "moduleName": "AxisMed"
-      },
-      {
-        "kind": "Import",
-        "name": "SceneKit.ModelIO",
-        "printedName": "SceneKit.ModelIO",
-        "declKind": "Import",
-        "moduleName": "AxisMed"
-      },
-      {
-        "kind": "Import",
-        "name": "SceneKit",
-        "printedName": "SceneKit",
-        "declKind": "Import",
-        "moduleName": "AxisMed"
-      },
-      {
         "kind": "TypeDecl",
-        "name": "ThreeDViewerPredictor",
-        "printedName": "ThreeDViewerPredictor",
+        "name": "ScanType",
+        "printedName": "ScanType",
         "children": [
           {
             "kind": "Var",
-            "name": "body",
-            "printedName": "body",
+            "name": "foot",
+            "printedName": "foot",
             "children": [
               {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AxisMed.ScanType.Type) -> AxisMed.ScanType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
+                    "name": "ScanType",
+                    "printedName": "AxisMed.ScanType",
+                    "usr": "s:7AxisMed8ScanTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AxisMed.ScanType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanType",
+                        "printedName": "AxisMed.ScanType",
+                        "usr": "s:7AxisMed8ScanTypeO"
+                      }
+                    ]
                   }
                 ]
               }
             ],
-            "declKind": "Var",
-            "usr": "s:7AxisMed21ThreeDViewerPredictorV4bodyQrvp",
-            "mangledName": "$s7AxisMed21ThreeDViewerPredictorV4bodyQrvp",
-            "moduleName": "AxisMed",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
+            "declKind": "EnumElement",
+            "usr": "s:7AxisMed8ScanTypeO4footyA2CmF",
+            "mangledName": "$s7AxisMed8ScanTypeO4footyA2CmF",
+            "moduleName": "AxisMed"
+          },
+          {
+            "kind": "Var",
+            "name": "leftFoam",
+            "printedName": "leftFoam",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AxisMed.ScanType.Type) -> AxisMed.ScanType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanType",
+                    "printedName": "AxisMed.ScanType",
+                    "usr": "s:7AxisMed8ScanTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AxisMed.ScanType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanType",
+                        "printedName": "AxisMed.ScanType",
+                        "usr": "s:7AxisMed8ScanTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
             ],
+            "declKind": "EnumElement",
+            "usr": "s:7AxisMed8ScanTypeO8leftFoamyA2CmF",
+            "mangledName": "$s7AxisMed8ScanTypeO8leftFoamyA2CmF",
+            "moduleName": "AxisMed"
+          },
+          {
+            "kind": "Var",
+            "name": "rightFoam",
+            "printedName": "rightFoam",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AxisMed.ScanType.Type) -> AxisMed.ScanType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanType",
+                    "printedName": "AxisMed.ScanType",
+                    "usr": "s:7AxisMed8ScanTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AxisMed.ScanType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanType",
+                        "printedName": "AxisMed.ScanType",
+                        "usr": "s:7AxisMed8ScanTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AxisMed8ScanTypeO9rightFoamyA2CmF",
+            "mangledName": "$s7AxisMed8ScanTypeO9rightFoamyA2CmF",
+            "moduleName": "AxisMed"
+          },
+          {
+            "kind": "Var",
+            "name": "dualFoam",
+            "printedName": "dualFoam",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AxisMed.ScanType.Type) -> AxisMed.ScanType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanType",
+                    "printedName": "AxisMed.ScanType",
+                    "usr": "s:7AxisMed8ScanTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AxisMed.ScanType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanType",
+                        "printedName": "AxisMed.ScanType",
+                        "usr": "s:7AxisMed8ScanTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AxisMed8ScanTypeO8dualFoamyA2CmF",
+            "mangledName": "$s7AxisMed8ScanTypeO8dualFoamyA2CmF",
+            "moduleName": "AxisMed"
+          },
+          {
+            "kind": "Var",
+            "name": "plantarSurface",
+            "printedName": "plantarSurface",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AxisMed.ScanType.Type) -> AxisMed.ScanType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanType",
+                    "printedName": "AxisMed.ScanType",
+                    "usr": "s:7AxisMed8ScanTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AxisMed.ScanType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanType",
+                        "printedName": "AxisMed.ScanType",
+                        "usr": "s:7AxisMed8ScanTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AxisMed8ScanTypeO14plantarSurfaceyA2CmF",
+            "mangledName": "$s7AxisMed8ScanTypeO14plantarSurfaceyA2CmF",
+            "moduleName": "AxisMed"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanType",
+                "printedName": "AxisMed.ScanType",
+                "usr": "s:7AxisMed8ScanTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanType",
+                "printedName": "AxisMed.ScanType",
+                "usr": "s:7AxisMed8ScanTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AxisMed8ScanTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7AxisMed8ScanTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AxisMed",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed8ScanTypeO9hashValueSivp",
+            "mangledName": "$s7AxisMed8ScanTypeO9hashValueSivp",
+            "moduleName": "AxisMed",
+            "implicit": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -634,56 +768,51 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7AxisMed21ThreeDViewerPredictorV4bodyQrvg",
-                "mangledName": "$s7AxisMed21ThreeDViewerPredictorV4bodyQrvg",
+                "usr": "s:7AxisMed8ScanTypeO9hashValueSivg",
+                "mangledName": "$s7AxisMed8ScanTypeO9hashValueSivg",
                 "moduleName": "AxisMed",
+                "implicit": true,
                 "accessorKind": "get"
               }
             ]
           },
           {
             "kind": "Function",
-            "name": "alignToPlane",
-            "printedName": "alignToPlane()",
+            "name": "hash",
+            "printedName": "hash(into:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AxisMed21ThreeDViewerPredictorV12alignToPlaneyyF",
-            "mangledName": "$s7AxisMed21ThreeDViewerPredictorV12alignToPlaneyyF",
+            "usr": "s:7AxisMed8ScanTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7AxisMed8ScanTypeO4hash4intoys6HasherVz_tF",
             "moduleName": "AxisMed",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
+            "implicit": true,
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:7AxisMed21ThreeDViewerPredictorV",
-        "mangledName": "$s7AxisMed21ThreeDViewerPredictorV",
+        "declKind": "Enum",
+        "usr": "s:7AxisMed8ScanTypeO",
+        "mangledName": "$s7AxisMed8ScanTypeO",
         "moduleName": "AxisMed",
         "declAttributes": [
-          "Preconcurrency",
-          "Custom",
           "AccessControl"
         ],
         "conformances": [
@@ -703,41 +832,91 @@
           },
           {
             "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AxisMed",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AxisMed",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ModelIO",
+        "printedName": "ModelIO",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit.ModelIO",
+        "printedName": "SceneKit.ModelIO",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AxisMed",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ModelIO",
+        "printedName": "ModelIO",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit.ModelIO",
+        "printedName": "SceneKit.ModelIO",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
       },
       {
         "kind": "Import",
@@ -2674,63 +2853,70 @@
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 307,
+      "offset": 300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 423,
+      "offset": 416,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 465,
+      "offset": 458,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 507,
+      "offset": 500,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "Array",
-      "offset": 564,
+      "offset": 557,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 23894,
+      "offset": 820,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24128,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 23936,
+      "offset": 24170,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 23985,
+      "offset": 24219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "IntegerLiteral",
-      "offset": 30325,
+      "offset": 30542,
       "length": 2,
       "value": "16"
     },
