@@ -14,6 +14,9 @@ let package = Package(
             name: "AxisMedPackage",
             targets: ["AxisMedPackage"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/weichsel/ZIPFoundation.git", from: "0.9.19")
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
