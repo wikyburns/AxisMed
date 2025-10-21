@@ -3,11 +3,13 @@
 // swift-module-flags: -target arm64-apple-ios18.2-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AxisMed
 import AVFoundation
 import Accelerate
+import AppKit
 import CoreGraphics
 import CoreImage
 import CoreML
 import CoreVideo
 import CryptoKit
+import DeveloperToolsSupport
 import Foundation
 import ModelIO
 import SceneKit.ModelIO

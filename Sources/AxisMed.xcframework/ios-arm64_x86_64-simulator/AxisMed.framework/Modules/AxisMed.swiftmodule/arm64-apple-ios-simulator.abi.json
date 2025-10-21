@@ -811,6 +811,34 @@
             "mangledName": "$s11Observation10ObservableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "AxisMed"
       }
     ],
     "json_format_version": 8
@@ -2674,23 +2702,30 @@
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 23428,
+      "offset": 23894,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 23470,
+      "offset": 23936,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
       "kind": "BooleanLiteral",
-      "offset": 23519,
+      "offset": 23985,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/ThreeDView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30325,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/WikyPredictorViewModel.swift",
@@ -2740,6 +2775,13 @@
       "offset": 750,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sebasbejenaru\/Library\/Developer\/Xcode\/DerivedData\/AxisMed-dxbgfqoskwanwmcfnrgqhqhacezk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AxisMed\/IntermediateBuildFilesPath\/AxisMed.build\/Release-iphonesimulator\/AxisMed.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 24,
+      "value": "\"powered-by-axismed-sdk\""
     }
   ]
 }
