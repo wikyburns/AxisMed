@@ -48,6 +48,11 @@ public enum ScanType {
 }
 
 public class AxisMedPredictor {
+  public var alignedToPlane: Swift.Bool {
+    get
+    set
+    _modify
+  }
   public init()
   @objc deinit
 }
