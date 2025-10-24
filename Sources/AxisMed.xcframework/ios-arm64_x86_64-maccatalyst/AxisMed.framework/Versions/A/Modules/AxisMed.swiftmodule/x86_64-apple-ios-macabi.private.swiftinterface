@@ -27,6 +27,8 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public typealias Polygon = [CoreFoundation.CGPoint]
 
+public struct Part {
+}
 public enum ScanType {
   case foot
   case leftFoam
@@ -50,6 +52,11 @@ public enum ScanType {
 
 public class AxisMedPredictor {
   public var alignedToPlane: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  public var objectsDetected: [AxisMed.Part] {
     get
     set
     _modify
