@@ -1316,47 +1316,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "isReady",
-            "printedName": "isReady",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7AxisMed0aB9PredictorC7isReadySbvp",
-            "mangledName": "$s7AxisMed0aB9PredictorC7isReadySbvp",
-            "moduleName": "AxisMed",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7AxisMed0aB9PredictorC7isReadySbvg",
-                "mangledName": "$s7AxisMed0aB9PredictorC7isReadySbvg",
-                "moduleName": "AxisMed",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "alignedToPlane",
             "printedName": "alignedToPlane",
             "children": [
@@ -3544,35 +3503,35 @@
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/WikyPredictorViewModel.swift",
       "kind": "Array",
-      "offset": 429,
+      "offset": 422,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/WikyPredictorViewModel.swift",
       "kind": "Array",
-      "offset": 468,
+      "offset": 461,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/WikyPredictorViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 572,
+      "offset": 565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/WikyPredictorViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 687,
+      "offset": 680,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasbejenaru\/Desktop\/xCode projects\/Exo\/AxisMed\/WikyPredictorViewModel.swift",
       "kind": "Array",
-      "offset": 771,
+      "offset": 764,
       "length": 2,
       "value": "[]"
     },

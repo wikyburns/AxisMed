@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios18.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AxisMed
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios18.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AxisMed
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import Accelerate
 import CoreGraphics
@@ -28,7 +29,9 @@ public typealias Polygon = [CoreFoundation.CGPoint]
 
 public struct Part {
   public var confidence: Swift.Float
+  #if compiler(>=5.3) && $NonescapableTypes
   public func exportScene(to url: Foundation.URL, completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void)
+  #endif
 }
 public enum ScanType {
   case foot
@@ -43,7 +46,9 @@ public enum ScanType {
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct ThreeDViewerPredictor : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(modelURL: SwiftUICore.Binding<Foundation.URL?>, scanType: AxisMed.ScanType, isLocalFile: Swift.Bool = true)
+  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -52,9 +57,6 @@ public enum ScanType {
 }
 
 public class AxisMedPredictor {
-  public var isReady: Swift.Bool {
-    get
-  }
   public var alignedToPlane: Swift.Bool {
     get
     set
@@ -68,7 +70,7 @@ public class AxisMedPredictor {
   public init()
   @objc deinit
 }
-extension AxisMed.AxisMedPredictor : Observation.Observable {
+extension AxisMed.AxisMedPredictor : nonisolated Observation.Observable {
 }
 extension AxisMed.ScanType : Swift.Equatable {}
 extension AxisMed.ScanType : Swift.Hashable {}
