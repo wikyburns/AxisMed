@@ -68,6 +68,7 @@ public class AxisMedPredictor {
     _modify
   }
   public init()
+  public func reset()
   @objc deinit
 }
 extension AxisMed.AxisMedPredictor : nonisolated Observation.Observable {
