@@ -523,6 +523,140 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "PartExportResult",
+        "printedName": "PartExportResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed16PartExportResultV3url10Foundation3URLVvp",
+            "mangledName": "$s7AxisMed16PartExportResultV3url10Foundation3URLVvp",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed16PartExportResultV3url10Foundation3URLVvg",
+                "mangledName": "$s7AxisMed16PartExportResultV3url10Foundation3URLVvg",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keypoints",
+            "printedName": "keypoints",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AxisMed.Point3D]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Point3D",
+                    "printedName": "AxisMed.Point3D",
+                    "usr": "s:7AxisMed7Point3DV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed16PartExportResultV9keypointsSayAA7Point3DVGvp",
+            "mangledName": "$s7AxisMed16PartExportResultV9keypointsSayAA7Point3DVGvp",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AxisMed.Point3D]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Point3D",
+                        "printedName": "AxisMed.Point3D",
+                        "usr": "s:7AxisMed7Point3DV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed16PartExportResultV9keypointsSayAA7Point3DVGvg",
+                "mangledName": "$s7AxisMed16PartExportResultV9keypointsSayAA7Point3DVGvg",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7AxisMed16PartExportResultV",
+        "mangledName": "$s7AxisMed16PartExportResultV",
+        "moduleName": "AxisMed",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Part",
         "printedName": "Part",
         "children": [
@@ -630,7 +764,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<AxisMed.PartExportResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -640,13 +774,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
+                    "printedName": "Swift.Result<AxisMed.PartExportResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
+                        "name": "PartExportResult",
+                        "printedName": "AxisMed.PartExportResult",
+                        "usr": "s:7AxisMed16PartExportResultV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -661,8 +795,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AxisMed4PartV11exportScene2to10completiony10Foundation3URLV_ys6ResultOyAIs5Error_pGctF",
-            "mangledName": "$s7AxisMed4PartV11exportScene2to10completiony10Foundation3URLV_ys6ResultOyAIs5Error_pGctF",
+            "usr": "s:7AxisMed4PartV11exportScene2to10completiony10Foundation3URLV_ys6ResultOyAA0c6ExportJ0Vs5Error_pGctF",
+            "mangledName": "$s7AxisMed4PartV11exportScene2to10completiony10Foundation3URLV_ys6ResultOyAA0c6ExportJ0Vs5Error_pGctF",
             "moduleName": "AxisMed",
             "declAttributes": [
               "AccessControl"
@@ -691,6 +825,942 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PointType",
+        "printedName": "PointType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "firstMetatarsal",
+            "printedName": "firstMetatarsal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AxisMed.PointType.Type) -> AxisMed.PointType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointType",
+                    "printedName": "AxisMed.PointType",
+                    "usr": "s:7AxisMed9PointTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AxisMed.PointType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointType",
+                        "printedName": "AxisMed.PointType",
+                        "usr": "s:7AxisMed9PointTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AxisMed9PointTypeO15firstMetatarsalyA2CmF",
+            "mangledName": "$s7AxisMed9PointTypeO15firstMetatarsalyA2CmF",
+            "moduleName": "AxisMed"
+          },
+          {
+            "kind": "Var",
+            "name": "fifthMetatarsal",
+            "printedName": "fifthMetatarsal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AxisMed.PointType.Type) -> AxisMed.PointType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointType",
+                    "printedName": "AxisMed.PointType",
+                    "usr": "s:7AxisMed9PointTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AxisMed.PointType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointType",
+                        "printedName": "AxisMed.PointType",
+                        "usr": "s:7AxisMed9PointTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AxisMed9PointTypeO15fifthMetatarsalyA2CmF",
+            "mangledName": "$s7AxisMed9PointTypeO15fifthMetatarsalyA2CmF",
+            "moduleName": "AxisMed"
+          },
+          {
+            "kind": "Var",
+            "name": "heelCenter",
+            "printedName": "heelCenter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AxisMed.PointType.Type) -> AxisMed.PointType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointType",
+                    "printedName": "AxisMed.PointType",
+                    "usr": "s:7AxisMed9PointTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AxisMed.PointType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointType",
+                        "printedName": "AxisMed.PointType",
+                        "usr": "s:7AxisMed9PointTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7AxisMed9PointTypeO10heelCenteryA2CmF",
+            "mangledName": "$s7AxisMed9PointTypeO10heelCenteryA2CmF",
+            "moduleName": "AxisMed"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AxisMed.PointType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointType",
+                    "printedName": "AxisMed.PointType",
+                    "usr": "s:7AxisMed9PointTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AxisMed9PointTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7AxisMed9PointTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "AxisMed",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed9PointTypeO8rawValueSSvp",
+            "mangledName": "$s7AxisMed9PointTypeO8rawValueSSvp",
+            "moduleName": "AxisMed",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed9PointTypeO8rawValueSSvg",
+                "mangledName": "$s7AxisMed9PointTypeO8rawValueSSvg",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AxisMed.PointType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointType",
+                    "printedName": "AxisMed.PointType",
+                    "usr": "s:7AxisMed9PointTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed9PointTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s7AxisMed9PointTypeO8allCasesSayACGvpZ",
+            "moduleName": "AxisMed",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AxisMed.PointType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointType",
+                        "printedName": "AxisMed.PointType",
+                        "usr": "s:7AxisMed9PointTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed9PointTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s7AxisMed9PointTypeO8allCasesSayACGvgZ",
+                "moduleName": "AxisMed",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7AxisMed9PointTypeO",
+        "mangledName": "$s7AxisMed9PointTypeO",
+        "moduleName": "AxisMed",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AxisMed.PointType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointType",
+                        "printedName": "AxisMed.PointType",
+                        "usr": "s:7AxisMed9PointTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Point3D",
+        "printedName": "Point3D",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed7Point3DV2id10Foundation4UUIDVvp",
+            "mangledName": "$s7AxisMed7Point3DV2id10Foundation4UUIDVvp",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV2id10Foundation4UUIDVvg",
+                "mangledName": "$s7AxisMed7Point3DV2id10Foundation4UUIDVvg",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV2id10Foundation4UUIDVvs",
+                "mangledName": "$s7AxisMed7Point3DV2id10Foundation4UUIDVvs",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV2id10Foundation4UUIDVvM",
+                "mangledName": "$s7AxisMed7Point3DV2id10Foundation4UUIDVvM",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PointType",
+                "printedName": "AxisMed.PointType",
+                "usr": "s:7AxisMed9PointTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed7Point3DV4typeAA9PointTypeOvp",
+            "mangledName": "$s7AxisMed7Point3DV4typeAA9PointTypeOvp",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointType",
+                    "printedName": "AxisMed.PointType",
+                    "usr": "s:7AxisMed9PointTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV4typeAA9PointTypeOvg",
+                "mangledName": "$s7AxisMed7Point3DV4typeAA9PointTypeOvg",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointType",
+                    "printedName": "AxisMed.PointType",
+                    "usr": "s:7AxisMed9PointTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV4typeAA9PointTypeOvs",
+                "mangledName": "$s7AxisMed7Point3DV4typeAA9PointTypeOvs",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV4typeAA9PointTypeOvM",
+                "mangledName": "$s7AxisMed7Point3DV4typeAA9PointTypeOvM",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "x",
+            "printedName": "x",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed7Point3DV1xSfvp",
+            "mangledName": "$s7AxisMed7Point3DV1xSfvp",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1xSfvg",
+                "mangledName": "$s7AxisMed7Point3DV1xSfvg",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1xSfvs",
+                "mangledName": "$s7AxisMed7Point3DV1xSfvs",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1xSfvM",
+                "mangledName": "$s7AxisMed7Point3DV1xSfvM",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "y",
+            "printedName": "y",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed7Point3DV1ySfvp",
+            "mangledName": "$s7AxisMed7Point3DV1ySfvp",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1ySfvg",
+                "mangledName": "$s7AxisMed7Point3DV1ySfvg",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1ySfvs",
+                "mangledName": "$s7AxisMed7Point3DV1ySfvs",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1ySfvM",
+                "mangledName": "$s7AxisMed7Point3DV1ySfvM",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "z",
+            "printedName": "z",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AxisMed7Point3DV1zSfvp",
+            "mangledName": "$s7AxisMed7Point3DV1zSfvp",
+            "moduleName": "AxisMed",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1zSfvg",
+                "mangledName": "$s7AxisMed7Point3DV1zSfvg",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1zSfvs",
+                "mangledName": "$s7AxisMed7Point3DV1zSfvs",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AxisMed7Point3DV1zSfvM",
+                "mangledName": "$s7AxisMed7Point3DV1zSfvM",
+                "moduleName": "AxisMed",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Point3D",
+                "printedName": "AxisMed.Point3D",
+                "usr": "s:7AxisMed7Point3DV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AxisMed7Point3DV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7AxisMed7Point3DV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AxisMed",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AxisMed7Point3DV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7AxisMed7Point3DV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AxisMed",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Point3D",
+                "printedName": "AxisMed.Point3D",
+                "usr": "s:7AxisMed7Point3DV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Point3D",
+                "printedName": "AxisMed.Point3D",
+                "usr": "s:7AxisMed7Point3DV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AxisMed7Point3DV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7AxisMed7Point3DV2eeoiySbAC_ACtFZ",
+            "moduleName": "AxisMed",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7AxisMed7Point3DV",
+        "mangledName": "$s7AxisMed7Point3DV",
+        "moduleName": "AxisMed",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },

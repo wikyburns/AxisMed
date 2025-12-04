@@ -27,11 +27,42 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public typealias Polygon = [CoreFoundation.CGPoint]
 
+public struct PartExportResult {
+  public let url: Foundation.URL
+  public let keypoints: [AxisMed.Point3D]
+}
 public struct Part {
   public var confidence: Swift.Float
   #if compiler(>=5.3) && $NonescapableTypes
-  public func exportScene(to url: Foundation.URL, completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void)
+  public func exportScene(to url: Foundation.URL, completion: @escaping (Swift.Result<AxisMed.PartExportResult, any Swift.Error>) -> Swift.Void)
   #endif
+}
+public enum PointType : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case firstMetatarsal
+  case fifthMetatarsal
+  case heelCenter
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [AxisMed.PointType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [AxisMed.PointType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct Point3D : Swift.Identifiable, Swift.Codable, Swift.Equatable {
+  public var id: Foundation.UUID
+  public var type: AxisMed.PointType
+  public var x: Swift.Float
+  public var y: Swift.Float
+  public var z: Swift.Float
+  public static func == (a: AxisMed.Point3D, b: AxisMed.Point3D) -> Swift.Bool
+  public typealias ID = Foundation.UUID
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum ScanType {
   case foot
@@ -73,6 +104,9 @@ public class AxisMedPredictor {
 }
 extension AxisMed.AxisMedPredictor : nonisolated Observation.Observable {
 }
+extension AxisMed.PointType : Swift.Equatable {}
+extension AxisMed.PointType : Swift.Hashable {}
+extension AxisMed.PointType : Swift.RawRepresentable {}
 extension AxisMed.ScanType : Swift.Equatable {}
 extension AxisMed.ScanType : Swift.Hashable {}
 extension AxisMed.ThreeDViewerPredictor : Swift.Sendable {}
